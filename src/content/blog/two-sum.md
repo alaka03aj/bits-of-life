@@ -1,6 +1,6 @@
 ---
 author: Alaka A J
-pubDatetime: 2024-06-25T13:23:42.398481+05:30
+pubDatetime: 2024-06-25T13:23:00+00:00
 title: Two Sum | LeetCode
 slug: two-sum
 featured: true

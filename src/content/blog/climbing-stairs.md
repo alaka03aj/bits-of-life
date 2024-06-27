@@ -1,6 +1,6 @@
 ---
 author: Alaka A J
-pubDatetime: 2024-06-26T22:30:00+05:30
+pubDatetime: 2024-06-26T22:30:00+00:00
 title: Climbing Stairs | LeetCode
 slug: climbing-stairs
 featured: true
@@ -24,6 +24,7 @@ description: Different ways to reach the top of a staircase with n steps, where 
   - [Brute Force](#brute-force)
   - [Memoization](#memoization)
   - [Top Down Approach](#top-down-approach)
+    - [Top Down Approach (Space Optimized)](#top-down-approach-space-optimized)
 - [Things to look into](#things-to-look-into)
 
 ## Problem Statement
@@ -84,6 +85,28 @@ Explanation: There are three ways to climb to the top.
 - Space Complexity: O(n)
 
 ### Top Down Approach:
+
+- Top down approach of the recursive solution
+- Pseudo Code:
+
+  ```bash
+  int climbStairs(int n) {
+        if (n == 0 || n == 1)
+            return 1;
+        vector<int> dp(n+1);
+        dp[0] = 0;
+        dp[1] = 1;
+        for (int i = 2; i <= n; i++) {
+            dp[i] = dp[i-1] + dp[i-2];
+        }
+        return dp[n];
+  }
+  ```
+
+- Time Complexity: O(n)
+- Space Complexity: O(n)
+
+### Top Down Approach (Space Optimized):
 
 - Top down approach of the recursive solution
 - We only need two variables to start 1 and 0
