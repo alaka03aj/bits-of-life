@@ -1,6 +1,6 @@
 ---
 author: Alaka A J
-pubDatetime: 2024-06-24T21:15:43.398481+05:30
+pubDatetime: 2024-06-24T21:15:00+00:00
 title: Valid Anagram | LeetCode
 slug: valid-anagram
 featured: true
