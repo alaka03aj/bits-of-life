@@ -1,6 +1,6 @@
 ---
 author: Alaka A J
-pubDatetime: 2024-06-24T21:13:00+00:00
+pubDatetime: 2024-06-27T21:13:00+00:00
 title: Group Anagrams | LeetCode
 slug: group-anagrams
 featured: true
